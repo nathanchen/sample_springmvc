@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.javax.servlet.jsp.jstl-1.1.2.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.taglibs.standard-1.1.2.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/log4j-1.2.16.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.aop-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.asm-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.aspects-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.beans-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.context-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.context.support-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.core-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.expression-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.instrument-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.instrument.tomcat-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.jdbc-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.jms-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.orm-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.oxm-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.spring-library-3.1.1.RELEASE.libd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.test-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.transaction-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.web-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.web.portlet-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.web.servlet-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.web.struts-3.1.1.RELEASE.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/slf4j-api-1.6.1.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/main-servlet.xml" charset="UTF-8" />
+  </component>
+</project>
+
