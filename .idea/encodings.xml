@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/springmvc/controller/UserController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/springmvc/dao/UserDAO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/springmvc/model/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/springmvc/service/UserService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/springmvc/service/impl/UserServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/conf/database.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/conf/mybatis-config.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/conf/spring-mybatis.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/conf/spring.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/cn/springmvc/test/UserTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.javax.servlet.jsp.jstl-1.1.2.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.taglibs.standard-1.1.2.jar" charset="UTF-8" />
