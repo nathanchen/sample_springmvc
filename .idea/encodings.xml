@@ -40,7 +40,6 @@
     <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/org.springframework.web.struts-3.1.1.RELEASE.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/slf4j-api-1.6.1.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web/WEB-INF/main-servlet.xml" charset="UTF-8" />
   </component>
 </project>
 

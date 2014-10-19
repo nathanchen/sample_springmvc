@@ -13,6 +13,7 @@ import java.util.List;
  * User: nathanchen Date: 16/10/2014 Time: 10:10 PM Description:
  */
 @Controller
+@RequestMapping(value = "roster/")
 public class RosterController
 {
     private List<Member> members = new ArrayList<Member>();
@@ -25,13 +26,13 @@ public class RosterController
         members.add(new Member("Ringo", "Starr"));
     }
 
-    @RequestMapping
+    @RequestMapping(value = "list")
     public void list(Model model)
     {
         model.addAttribute(members);
     }
 
-    @RequestMapping
+    @RequestMapping(value = "member")
     public void member(@RequestParam("id") Integer id, Model model)
     {
         model.addAttribute(members.get(id));
