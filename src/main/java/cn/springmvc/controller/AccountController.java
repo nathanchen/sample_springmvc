@@ -1,7 +1,11 @@
 package cn.springmvc.controller;
 
+import cn.springmvc.model.AccountForm;
+import cn.springmvc.model.database.Account;
+import cn.springmvc.service.AccountService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -11,7 +15,6 @@ import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import cn.springmvc.model.AccountForm;
 
 import javax.validation.Valid;
 
@@ -27,6 +30,9 @@ public class AccountController
     private static final String VN_REG_FORM = "users/registrationForm";
     private static final String VN_REG_OK = "redirect:registration_ok";
 
+    @Autowired
+    private AccountService accountService;
+
     @InitBinder
     public void initBinder(WebDataBinder binder)
     {
@@ -36,7 +42,7 @@ public class AccountController
     @RequestMapping(value = "new", method = RequestMethod.GET)
     public String getRegistrationForm(Model model)
     {
-        model.addAttribute("account", new AccountForm());
+        model.addAttribute("account", new AccountForm(0));
         return VN_REG_FORM;
     }
 
@@ -44,8 +50,8 @@ public class AccountController
     public String postRegistrationForm(@ModelAttribute("account") @Valid AccountForm accountForm, BindingResult bindingResult)
     {
         convertPasswordError(bindingResult);
-        System.out.println("accountForm.getEmail(): " + accountForm.getEmail());
         logger.info("Created registration: {}", accountForm);
+        accountService.registerAccount(toAccount(accountForm), bindingResult);
         return (bindingResult.hasErrors() ? VN_REG_FORM : VN_REG_OK);
     }
 
@@ -62,5 +68,18 @@ public class AccountController
                 }
             }
         }
+    }
+
+    private static Account toAccount(AccountForm accountForm)
+    {
+        Account account = new Account();
+        account.setUsername(accountForm.getUsername());
+        account.setFirstName(accountForm.getFirstName());
+        account.setLastName(accountForm.getLastName());
+        account.setEmail(accountForm.getEmail());
+        account.setMarketingOk(accountForm.isMarketingOk());
+        account.setAcceptTerms(accountForm.isAcceptTerms());
+        account.setEnabled(true);
+        return account;
     }
 }

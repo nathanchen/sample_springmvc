@@ -6,6 +6,7 @@
     <!-- 命名空间 -->
     <typeAliases>
         <typeAlias alias="User" type="cn.springmvc.model.User"/>
+        <typeAlias alias="Account" type="cn.springmvc.model.database.Account"/>
     </typeAliases>
 
     <!-- 映射map -->

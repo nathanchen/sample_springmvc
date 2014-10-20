@@ -15,6 +15,22 @@ public class AccountForm
     private boolean marketingOk = true;
     private boolean acceptTerms = false;
 
+    public AccountForm()
+    {
+
+    }
+
+    public AccountForm(int defaultNum)
+    {
+        this.username = "qwerqwe";
+        this.password = "123123";
+        this.confirmPassword = "123123";
+        this.firstName = "qweqwe";
+        this.lastName = "asdfasdf";
+        this.email = "t@tt.cn";
+        this.acceptTerms = true;
+    }
+
     @NotNull
     @Size(min = 1, max = 50)
     public String getUsername ()
